@@ -8,7 +8,7 @@ const projects = [
     desc: "CineFinder is a modern movie web application built with React + TypeScript that allows users to browse trending movies, search and filter by genre, year, or rating, view detailed movie information, and mark favorites. The app uses TMDb API for movie data and is styled using Material UI (MUI) and Tailwind CSS.",
     image: cineImg,
     category: "frontend",
-    link: "https://github.com/aabishek420/CineFinder",
+    link: "https://github.com/aabishek420/CineFinder-MovieWorld",
     demo: "https://cinefinder-movieworld.netlify.app/", // Demo link
   },
 
