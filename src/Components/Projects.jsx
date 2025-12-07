@@ -1,25 +1,17 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import ecomImg from "../assets/ecom.png";
-import noteImg from "../assets/Note.jpg";
+import cineImg from "../assets/Cinifinder.png";
 
 const projects = [
   {
-    title: "E-Commerce Site Using Reactjs",
-    desc: "Frontend project with product listing, cart, and checkout features.",
-    image: ecomImg,
+    title: " CineFinder-MovieWorld",
+    desc: "CineFinder is a modern movie web application built with React + TypeScript that allows users to browse trending movies, search and filter by genre, year, or rating, view detailed movie information, and mark favorites. The app uses TMDb API for movie data and is styled using Material UI (MUI) and Tailwind CSS.",
+    image: cineImg,
     category: "frontend",
-    link: "https://github.com/aabishek420/E-commerce",
-    demo: "https://abishek-ecommerce.netlify.app/", // Demo link
+    link: "https://github.com/aabishek420/CineFinder",
+    demo: "https://cinefinder-movieworld.netlify.app/", // Demo link
   },
-  {
-    title: "Modern Notes App",
-    desc: "Fullstack notes app using React, Firebase, and Spring Boot.",
-    image: noteImg,
-    category: "fullstack",
-    link: "https://github.com/aabishek420/",
-    demo: "https://your-notes-demo-link.com", // Demo link
-  },
+
 ];
 
 const categories = ["all", "frontend", "backend", "fullstack"];
@@ -49,7 +41,7 @@ export default function Projects() {
 
   return (
     <motion.section
-      className="bg-base-300 py-10 px-6 mt-10 min-h-screen"
+      className="bg-base-200 py-10 px-6 mt-10 min-h-screen"
       id="projects"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -116,7 +108,7 @@ export default function Projects() {
               />
 
               {/* Overlay with Buttons */}
-              <div className="absolute inset-0 bg-base-100 bg-opacity-60 flex justify-center items-center gap-3 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+              <div className="absolute inset-0 backdrop-blur-xs flex justify-center items-center gap-3 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                 {/* View Button */}
                 <a
                   href={project.link}
@@ -141,7 +133,7 @@ export default function Projects() {
               {/* Text */}
               <div className="p-5 text-center">
                 <h2 className="text-lg font-semibold mb-2">{project.title}</h2>
-                <p className="text-sm text-gray-600">{project.desc}</p>
+                <p className="text-sm text-base-content text-justify">{project.desc}</p>
               </div>
             </motion.article>
           ))}

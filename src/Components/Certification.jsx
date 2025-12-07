@@ -38,7 +38,7 @@ const childVariant = {
 
 const Certification = () => {
   return (
-    <div className="py-12 px-4 bg-base-200 min-h-screen" id="certifications">
+    <div className="py-12 px-4 bg-base-300 min-h-screen" id="certifications">
       {/* Title */}
       <motion.h1
         className="text-5xl text-center font-bold mb-10"
@@ -73,7 +73,7 @@ const Certification = () => {
             />
 
             {/* Overlay with View button */}
-            <div className="absolute inset-0 bg-base-100 bg-opacity-50 opacity-0 hover:opacity-100 flex justify-center items-center transition-opacity duration-300">
+            <div className="absolute inset-0  opacity-0 hover:opacity-100 hover:backdrop-blur-xs flex justify-center items-center transition-opacity duration-300">
               <a
                 href={certificate.link}
                 target="_blank"
