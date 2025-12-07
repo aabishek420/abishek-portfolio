@@ -1,12 +1,36 @@
-# React + Vite
+# 🌐 Abishek A – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built using **React** and **Tailwind CSS**. It showcases my background, skills, education, and featured projects with a clean UI and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* ✨ Hero section with **dynamic role animation**
+* 👤 About page highlighting my profile and background
+* 🎓 Education page showcasing my academic journey
+* 🧩 Skills page with clearly listed technical skills
+* 💼 Projects page with showcased development works
+* 📩 Contact form with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * EmailJS **email integration**
+  * Toast notification on successful message submit
+* 📱 Fully responsive design for all screen sizes
+* 🧾 Footer with copyright
+
+---
+
+## 🛠️ Technologies Used
+
+* **React JS**
+* **Tailwind CSS**
+* **EmailJS**
+
+---
+
+## 🔗 Live Demo
+
+Check out the live portfolio here 👇
+➡️ **[https://abishek-a.netlify.app](https://abishek-a.netlify.app)**
+
+---
